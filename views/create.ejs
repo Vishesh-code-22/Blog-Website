@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+<main>
+  <div class="container d-flex flex-column align-items-center py-4">
+    <h1>Create</h1>
+    <form action="/submitBlog" method="post" class="container-fluid forms d-flex flex-column align-items-center">
+      <input type="text" name="blogTitle" id="blogTitle" placeholder="Title" class="form-control py-3 my-3 border-dark-subtle"/>
+      <textarea
+        name="blogContent"
+        id="blogContent"
+        cols="24"
+        rows="14"
+        placeholder="Start writing..."
+        class="form-control py-3 my-3 border-dark-subtle"
+      ></textarea>
+      <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
+    </form>
+  </div>
+</main>
+<%- include("partials/footer.ejs") %>

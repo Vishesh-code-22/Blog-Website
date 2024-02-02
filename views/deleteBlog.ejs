@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+<main>
+  <div class="container blog-show-container d-flex flex-column align-items-center py-4">
+    <h1><%= blogName %></h1>
+    <hr class="blog-title-line">
+    <p class="py-3 text-break"><%= blogContent %></p>
+    <form action="/deleteThisBlog/<%= blogName %>" method="post">
+      <input type="submit" value="Delete" class="btn btn-danger btn-lg"/>
+    </form>
+  </div>
+</main>
+<%- include("partials/footer.ejs") %>

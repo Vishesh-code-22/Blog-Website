@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  min-height: 84vh;
+}
+
+.top-bottom-bars {
+  height: 8vh;
+}
+
+.blog-boxes {
+  width: 300px;
+}
+
+.blog-show-container {
+  width: 80vw;
+}
+
+.forms{
+    width: 80vw;
+}
+
+.blog-title-line {
+  height: 2px;
+  width: 100%;
+  color: black;
+}
